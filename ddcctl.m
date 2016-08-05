@@ -91,6 +91,7 @@ int main(int argc, const char * argv[])
                                    @"v": @AUDIO_SPEAKER_VOLUME, //pg94
                                    @"o": @ORIENTATION,
                                    }; //should test against http://www.entechtaiwan.com/lib/softmccs.shtm
+        // SoftMCCS 0F 10 11 12 = "16 , 17 , 18 , 19"
 
         NSUInteger command_interval = [[NSUserDefaults standardUserDefaults] integerForKey:@"w"];
         NSUInteger set_display = [[NSUserDefaults standardUserDefaults] integerForKey:@"d"];
